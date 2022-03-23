@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51e8cc991c9e8a4fa16fcc794fd55d7, type: 3}
+  m_Name: HealthPotion
+  m_EditorClassIdentifier: 
+  cardTitle: Health
+  cardType: Potion
+  cardDescription: Heals up to 10 hp.
+  power: 10
+  cost: 5
+  spriteImage: {fileID: 21300000, guid: 0cb5c076d31f3e145a1c63f989ad7090, type: 3}
