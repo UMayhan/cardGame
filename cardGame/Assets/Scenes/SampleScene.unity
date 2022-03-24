@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4e8ce36db650542963a6095c68f0c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: c99bda70861b70a40801d51ceed8c85e, type: 2}
+  card: {fileID: 11400000, guid: a7bd91f26299f9f4999e1401b0e95eb0, type: 2}
   cardTitle: 
   cardDescription: 
   cardType: 

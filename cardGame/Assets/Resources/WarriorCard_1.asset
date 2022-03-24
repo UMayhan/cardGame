@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e51e8cc991c9e8a4fa16fcc794fd55d7, type: 3}
-  m_Name: ManaPotion
+  m_Name: WarriorCard_1
   m_EditorClassIdentifier: 
-  cardList: []
-  cardTitle: Mana
+  cardTitle: Health
   cardType: Potion
-  cardDescription: Regains up to 10 mp
+  cardDescription: Heals up to 10 hp.
   power: 10
-  cost: 0
-  spriteImage: {fileID: 0}
+  cost: 5
+  spriteImage: {fileID: 21300000, guid: 0cb5c076d31f3e145a1c63f989ad7090, type: 3}

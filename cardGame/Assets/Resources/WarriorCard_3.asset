@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e51e8cc991c9e8a4fa16fcc794fd55d7, type: 3}
-  m_Name: QuickAttack
+  m_Name: WarriorCard_3
   m_EditorClassIdentifier: 
   cardList: []
-  cardTitle: Quick Attack
-  cardType: Sword
-  cardDescription: Deals 5 dmg to one enemy.
-  power: 5
-  cost: 2
+  cardTitle: Mana
+  cardType: Potion
+  cardDescription: Regains up to 10 mp
+  power: 10
+  cost: 0
   spriteImage: {fileID: 0}

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e51e8cc991c9e8a4fa16fcc794fd55d7, type: 3}
-  m_Name: LightningStrike
+  m_Name: WarriorCard_4
   m_EditorClassIdentifier: 
   cardList: []
-  cardTitle: Lightning Strike
-  cardType: Wand
-  cardDescription: Deals 3-6 dmg to all enemies.
-  power: 6
-  cost: 8
+  cardTitle: Quick Attack
+  cardType: Sword
+  cardDescription: Deals 5 dmg to one enemy.
+  power: 5
+  cost: 2
   spriteImage: {fileID: 0}
