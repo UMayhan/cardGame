@@ -19,4 +19,5 @@ MonoBehaviour:
   power: 10
   cost: 5
   spriteImage: {fileID: 21300000, guid: 0cb5c076d31f3e145a1c63f989ad7090, type: 3}
-  spriteBackImage: {fileID: 21300000, guid: 9ea3f160764ba4e42a07c86caf5501ca, type: 3}
+  spriteFrontImage: {fileID: 21300000, guid: 9b8e7d5849f9ecc43b9c51034d3024d5, type: 3}
+  spriteBackImage: {fileID: 21300000, guid: 7f55ee1eb1c4c9b4487e48f2c2d197d1, type: 3}
