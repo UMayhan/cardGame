@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51e8cc991c9e8a4fa16fcc794fd55d7, type: 3}
   m_Name: WarriorCard_1
   m_EditorClassIdentifier: 
+  cardList: []
   cardTitle: Health
   cardType: Potion
   cardDescription: Heals up to 10 hp.
   power: 10
   cost: 5
   spriteImage: {fileID: 21300000, guid: 0cb5c076d31f3e145a1c63f989ad7090, type: 3}
+  spriteBackImage: {fileID: 21300000, guid: 9ea3f160764ba4e42a07c86caf5501ca, type: 3}

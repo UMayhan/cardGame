@@ -29,6 +29,12 @@ public class DisplayCard : MonoBehaviour
     public TextMeshProUGUI txtType;
     public TextMeshProUGUI txtCost;
     public Image cardImage;
+    public Image cardFrontImage; 
+    public Image cardBackImage;
+
+
+    public bool cardBack;
+    public static bool staticCardBack;
 
     //
     // функция при старте, отвещаюшся за вывод данных на карту из обьектов типа <Card>
@@ -42,12 +48,19 @@ public class DisplayCard : MonoBehaviour
         txtType.text = card.cardType;
         txtCost.text = card.cost.ToString();
         cardImage.sprite = card.spriteImage;
-        //cardImage = card.spriteImage;
+        cardFrontImage.sprite = card.spriteFrontImage;
+        cardBackImage.sprite = card.spriteBackImage;
         
 
 
     }
 
+    void Update()
+    {
+
+        staticCardBack = cardBack;
+
+    }
 
     /*private void Update()
     {

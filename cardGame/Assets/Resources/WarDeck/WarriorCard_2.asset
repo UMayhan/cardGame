@@ -19,3 +19,4 @@ MonoBehaviour:
   power: 6
   cost: 8
   spriteImage: {fileID: 0}
+  spriteBackImage: {fileID: 21300000, guid: 9ea3f160764ba4e42a07c86caf5501ca, type: 3}

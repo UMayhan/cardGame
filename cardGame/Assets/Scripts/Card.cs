@@ -23,6 +23,10 @@ public class Card : ScriptableObject
     public int power;
     public int cost;
     public Sprite spriteImage;
+    public Sprite spriteFrontImage;
+    public Sprite spriteBackImage;
+    
+
     //public Image cardImage;
 
     //
