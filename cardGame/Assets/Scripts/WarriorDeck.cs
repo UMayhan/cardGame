@@ -32,7 +32,7 @@ public class WarriorDeck : MonoBehaviour
             
             x = Random.Range(1, 4);
             deck[i] = (Card)Resources.Load("WarDeck/WarriorCard_"+x.ToString());
-            //TO DO для каждого места в колоде выбрать карту из существующих наборов обьектов
+            // "Done" для каждого места в колоде выбрать карту из существующих наборов обьектов
 
 
             //deck[i] = (Card)AssetDatabase.LoadAssetAtPath(WarDeck, typeof(Card));

@@ -28,6 +28,8 @@ public class Card : ScriptableObject
     //
     // присвоение значение посредством создавания базы данных колоды, решили отказаться от данного решения в сторону ScriptableObject
     //
+
+
     /*public Card(int Id, string CardType, string CardTitle, string CardDescription, int Power, int Cost, Sprite SpriteImage)
     {
 
