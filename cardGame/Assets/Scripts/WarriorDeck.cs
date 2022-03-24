@@ -19,10 +19,10 @@ public class WarriorDeck : MonoBehaviour
     //private string WarDeck = "Resources/WarDeck";
     
 
-    public GameObject cardDeck1;
-    public GameObject cardDeck2;
-    public GameObject cardDeck3;
-    public GameObject cardDeck4;
+    public GameObject cardWarDeck1;
+    public GameObject cardWarDeck2;
+    public GameObject cardWarDeck3;
+    public GameObject cardWarDeck4;
 
 
 
@@ -55,32 +55,32 @@ public class WarriorDeck : MonoBehaviour
     {
         if (deckSize < 8)
         {
-            cardDeck1.SetActive(false);
+            cardWarDeck1.SetActive(false);
         }
         else
         {
-            cardDeck1.SetActive(true);
+            cardWarDeck1.SetActive(true);
         }
         if (deckSize < 6)
         {
-            cardDeck2.SetActive(false);
+            cardWarDeck2.SetActive(false);
         } else
         {
-            cardDeck2.SetActive(true);
+            cardWarDeck2.SetActive(true);
         }
         if (deckSize < 3)
         {
-            cardDeck3.SetActive(false);
+            cardWarDeck3.SetActive(false);
         } else
         {
-            cardDeck3.SetActive(true);
+            cardWarDeck3.SetActive(true);
         }
         if (deckSize == 0)
         {
-            cardDeck4.SetActive(false);
+            cardWarDeck4.SetActive(false);
         } else
         {
-            cardDeck4.SetActive(true);
+            cardWarDeck4.SetActive(true);
         }
     }
 }
